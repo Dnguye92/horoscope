@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Horoscope</title>
+	</head>
+	<link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="img/wheel.ico">
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+
+<body>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form>
+					<div class="form-group">
+						<h1 class="animated zoomIn">Enter your horoscope sign</h1>
+					</div>
+					<div class="form-group">
+						<input id="sign" class="form-control">
+					</div>
+					<div class="form-group">
+						<button type="button" onclick="clickMe()" class="btn btn-primary btn-lg">click me</button>
+					</div>
+				</form>
+				<div>
+					<img id="picture">
+					<h2 id="name"></h2>
+				</div>
+				<div>
+					<p id="description"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main.js	"></script>
+</body>
+</html>

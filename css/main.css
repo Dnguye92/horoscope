@@ -1,0 +1,35 @@
+h1{
+	font-size: 56px;
+	font-weight: bold;
+	color: white;
+}
+
+body{
+	background: url("../img/sky.jpeg");
+	text-align: center;
+}
+
+#sign{
+	color: #030212;
+	font-size: 26px;
+	height: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+#name{
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+#description{
+	font-family: 'Amatic SC', cursive;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+}
