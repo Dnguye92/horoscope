@@ -66,6 +66,7 @@ var horoscope = [
 	}
 ]
 
+function clickMe() {
 	var sign = document.getElementById("sign").value.toLowerCase()
 	for(i = 0; i < horoscope.length; i++) {
 		if(sign == horoscope[i].character) {
@@ -77,3 +78,4 @@ var horoscope = [
 			document.getElementById("name").innerHTML = "You entered a name incorrectly. Try again (or try typing Batman)!"
 		}
 	}
+}
